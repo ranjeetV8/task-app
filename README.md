@@ -80,7 +80,9 @@ Database: MongoDB with Mongoose
    Feel free to contribute, fork, or reach out!
 
 
-   Thanks a lot for your Time...
+ ##  Project Status
+
+This project is currently under active development. Features and UI may change frequently as new updates are pushed.
 
 
 

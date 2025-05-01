@@ -1,12 +1,88 @@
-# React + Vite
+# 1 Setup & Installation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clone the repository.
+```bash
+git clone https://github.com/ranjeetV8/task-app.git
+cd task-manager-app
 
-Currently, two official plugins are available:
+```
+# 2 Backend Setup (Node.js + Express)
+```bash
+cd backend
+npm install
+```
+# 3 Create a .env file
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+example .env
+## Edit .env with your MongoDB URL and PORT
 
-## Expanding the ESLint configuration
+# 4 Frontend Setup (Next.js)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+   cd ../frontend
+   npm install
+   npm run dev
+```
+
+## Starts the frontend on: http://localhost:3000
+
+## Ensure the backend is running before accessing the frontend.
+
+# API DOCUMENTATION
+
+# Base URL
+
+http://localhost:3000/api/tasks
+
+Endpoints
+GET /tasks
+Get all tasks
+
+GET /tasks/:id
+Get task by ID
+
+POST /tasks
+Create a new task
+
+```bash
+{
+  "title": "Task Title",
+  "description": "Details...",
+  "dueDate": "2025-05-01",
+  "priority": "High"
+}
+```
+PUT /tasks/:id
+Update a task by ID (same body as POST)
+
+DELETE /tasks/:id
+Delete a task
+
+# Tech Stack
+Frontend: React +  (App Router)
+
+Backend: Node.js + Express
+
+Database: MongoDB with Mongoose
+
+# Features
+
+ ## Create, Read, Update, and Delete tasks
+
+ ## Sort tasks by due date or priority
+
+ ## View task details in a clean UI
+
+ ## Clean and responsive design
+
+# Author
+## Made by Ranjeet
+   Feel free to contribute, fork, or reach out!
+
+
+   Thanks a lot for your Time...
+
+
+
+
+

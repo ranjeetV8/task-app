@@ -75,9 +75,6 @@ Database: MongoDB with Mongoose
 
  ## Clean and responsive design
 
-# Author
-## Made by Ranjeet
-   Feel free to contribute, fork, or reach out!
 
 
  ##  Project Status
